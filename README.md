@@ -8,7 +8,7 @@ On `vars.js`, the developers sets the gauges and actions, and its effects.
 
 ##### Side notes:
 
-USe a small screen and do not complain about the layout.
+Use a small screen and do not complain about the layout.
 
 *Live demo: [flaviocarrara.com/_hrpg2](http://flaviocarrara.com/_hrpg2)*
 
