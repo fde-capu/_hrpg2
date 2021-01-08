@@ -1,0 +1,66 @@
+body {
+	
+	 font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+	
+	padding: 0 0;
+	
+	 -webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-drag: none;-khtml-user-select: none;-moz-user-select: none;-moz-user-select:-moz-none;-ms-user-select: none;user-select: none;
+	 
+	 font-size:15px;
+	background:black;
+	color:gray;
+	
+	pointer-events: none;
+	min-width:300px;
+}
+
+.areas {
+	border: 1px solid gray;
+	margin: 0px 0 0px 0;
+	padding: 10px;
+	height: 30%;
+	overflow: hidden;
+}
+
+.nameDisplay {
+	position:absolute;
+	margin:5px;
+	padding:5px;
+	bottom:0;
+	left:0;
+	border:1px solid gray;
+}
+
+.playerarea {
+	display:inline-block;
+	border: 1px solid gray;
+	margin: 3px;
+	padding: 5px;
+}
+
+.gauge {
+	position:relative;
+	border:1px solid gray;
+	width:200px;
+	height:20px;
+	margin:1.5px;
+	padding:0;
+}
+
+.marker {
+	position:relative;
+	top:0;
+	left:0;
+	height:20px;
+	background:#555;
+	transition: all 1000ms ease-in-out;
+}
+
+.button {
+	border:1px solid gray;
+	margin:5px;
+	padding:5px;
+	display:inline-block;
+	pointer-events: auto;
+	cursor:hand;
+}
